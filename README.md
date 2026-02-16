@@ -30,4 +30,4 @@ Built to demonstrate modern AI application development skills.
 See docs/SETUP.md for installation instructions.
 
 ---
-Built as a portfolio piece demonstrating full-stack AI development.
+Built to demonstrate full-stack AI development capabilities.
