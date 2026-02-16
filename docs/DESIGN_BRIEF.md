@@ -4,10 +4,13 @@
 ### Objective
 Build a production-ready AI chatbot with Retrieval-Augmented Generation (RAG) that demonstrates full-stack AI development skills.
 
-### Target Job Matches
-- Upwork: "Full-stack AI Developer" ($5,000 fixed)
-- Wellfound: "Software Development Engineer, AI" ($105k-$140k)
-- Fiverr: AI chatbot gigs ($90-$300)
+### Demonstrated Capabilities
+This project showcases:
+- Full-stack AI application architecture
+- RAG (Retrieval-Augmented Generation) implementation
+- Modern web development with Next.js and FastAPI
+- Vector database integration and embeddings
+- Real-time streaming and state management
 
 ### Tech Stack
 - **Frontend:** Next.js 14, React, TypeScript, Tailwind CSS, shadcn/ui
