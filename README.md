@@ -1,33 +1,26 @@
 # AI Chatbot with RAG Portfolio Project
 
-A full-stack AI chatbot with Retrieval-Augmented Generation (RAG) capabilities.
-Built to demonstrate modern AI application development skills.
+Full-stack implementation from `docs/DESIGN.md`.
 
-## Tech Stack
-- **Frontend:** Next.js 14, React, TypeScript, Tailwind CSS
-- **Backend:** Python, FastAPI, OpenAI/Claude API
-- **Database:** PostgreSQL + pgvector (vector storage)
-- **AI:** RAG pipeline, embeddings, context-aware responses
-- **Deployment:** Vercel (frontend), Railway/Render (backend)
+## Stack
+- Frontend: Next.js 14, React 18, TypeScript, Tailwind, TanStack Query
+- Backend: FastAPI, SQLAlchemy 2.x, JWT auth, WebSocket streaming
+- RAG: chunking + embeddings + similarity retrieval + context-augmented generation
+- DB: SQLite by default, PostgreSQL + pgvector supported via Docker
 
-## Features
-- [ ] Document upload (PDF, TXT, MD)
-- [ ] Vector embedding generation
-- [ ] Context-aware chat interface
-- [ ] Chat history persistence
-- [ ] Real-time streaming responses
-- [ ] Responsive mobile design
+## Repository Structure
+- `frontend/` Next.js app router UI (auth, documents, chat)
+- `backend/` FastAPI API (`/api/v1`) with RAG pipeline
+- `docs/` design and setup guides
 
-## Project Structure
-```
-├── frontend/          # Next.js application
-├── backend/           # FastAPI server
-├── docs/             # Design docs, architecture decisions
-└── .github/          # CI/CD workflows
-```
+## Implemented Features
+- JWT authentication (`register`, `login`, `refresh`, `logout`)
+- Document upload/list/get/delete for `pdf/txt/md`
+- Chunking, embeddings, vector-style similarity retrieval
+- Chat create/list/get/delete
+- Message create/list + WebSocket stream endpoint
+- Backend tests (auth/documents/chat/rag/websocket)
+- Frontend component/hook/integration tests scaffold
 
-## Getting Started
-See docs/SETUP.md for installation instructions.
-
----
-Built to demonstrate full-stack AI development capabilities.
+## Quick Start
+See `docs/SETUP.md`.
